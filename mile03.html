@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Resume Builder By Bushra Khan</title>
+  <link rel="stylesheet" href="style03.css">
+</head>
+
+
+<body>
+  <h1>Resume Builder</h1>
+  <form id="resume-form">
+    <h2>Personal Information</h2>
+    <label>Name: <input type="text" id="name" required></label><br>
+    <label>Contact: <input type="text" id="contact" required></label><br>
+    <label>Location: <input type="text" id="location" required></label><br>
+   
+    
+    <h2>Education</h2>
+    <label>Institution: <input type="text" id="institution" required></label><br>
+    <label>Year: <input type="text" id="year" required></label><br>
+    
+    <h2>Skills</h2>
+    <label>Skills: <input type="text" id="skills" required></label><br>
+    
+    <h2>Experience</h2>
+    <label>Company: <input type="text" id="company" required></label><br>
+    <label>Role: <input type="text" id="role" required></label><br>
+    <label>Duration: <input type="text" id="duration" required></label><br>
+    
+    <button type="button" onclick="generateResume()">Generate Resume</button>
+  </form>
+
+  <h2>Generated Resume</h2>
+  <div id="resume-output"></div>
+
+  <script src="script03.js"></script>
+</body>
+</html>
